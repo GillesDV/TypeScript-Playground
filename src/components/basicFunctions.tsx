@@ -3,10 +3,15 @@ export function echoString(wordToEcho: string){
 }
 
 export function sum(firstNumber: number, secondNumber: number){
-  console.log(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`);
+  return firstNumber + secondNumber;
 }
 
 export function booleanParadoxFunction(boolValue: boolean){
-  console.log(`THIS SENTENCE IS FALSE: ${boolValue}`);
-  
+  console.log(`THIS SENTENCE IS FALSE: ${boolValue}`); 
+}
+
+export function createGibberishObject(){
+  const paradoxTrigger = true;
+
+  return paradoxTrigger;
 }
