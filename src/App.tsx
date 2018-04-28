@@ -23,8 +23,7 @@ class App extends React.Component {
           <h1 className='App-title'>Page is rendered.</h1>
         </header>
         <div>
-          <Hello name="TypeScript" enthusiasmLevel={10} />
-          <Hello name="Gilles" />
+          <Hello name="TypeScript" enthusiasmLevel={5} />
           {/* <Hello name="Jack" enthusiasmLevel={0}/> */}
         </div>
       </div>
